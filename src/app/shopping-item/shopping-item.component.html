@@ -1,0 +1,9 @@
+<div class="product">
+  <h3>{{ productia.name }}</h3>
+  <div class="image">
+    <img [src]="productia.img" alt="" />
+  </div>
+  <strong id="price">{{ productia.price }}</strong>
+  <p>{{ productia.model }}</p>
+  <button (click)="onDeleteItem()"><i class="fa-solid fa-trash"></i></button>
+</div>

@@ -1,0 +1,23 @@
+.special {
+  color: red;
+}
+
+.container {
+  margin: 250px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+input {
+  background: none;
+  position: absolute;
+  width: 15vw;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+}
