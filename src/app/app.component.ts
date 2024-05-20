@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ShoppingItemComponent } from './shopping-item/shopping-item.component';
 import { ProductsItem } from './type/Product';
-import { filter } from 'rxjs';
 
 @Component({
   selector: 'app-root',

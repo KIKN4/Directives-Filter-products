@@ -6,7 +6,6 @@
     (input)="onKeyUp(searchkey)"
     placeholder="ტელეფონის სახელი"
   />
-  <!-- *ngFor="let item of productList" -->
   @for (item of productList; track item.id) {
   <app-shopping-item
     [productia]="item"
